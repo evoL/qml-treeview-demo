@@ -12,7 +12,7 @@ find_package(Qt6 COMPONENTS Core Gui Qml Quick QuickControls2 REQUIRED)
 FetchContent_Declare(
         qttreeview
         GIT_REPOSITORY https://code.qt.io/qt-extensions/qttreeview.git
-        GIT_TAG ec074133d9c652a4bb9bf03acf57343f9e7015e5
+        GIT_TAG f1a518528f6f03296848990178b8e2373ff35df6
         GIT_SHALLOW true
 )
 FetchContent_MakeAvailable(qttreeview)
